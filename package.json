@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-brevo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@getbrevo/brevo": "^2.1.1",
+    "dotenv": "^16.4.5"
+  }
+}
