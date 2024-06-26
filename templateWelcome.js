@@ -1,6 +1,10 @@
 export const templateWelcome = () => {
   return `
+<<<<<<< HEAD
    <html>
+=======
+  <html>
+>>>>>>> e4f2a875954e9567257080978b0ac2d13578d447
     <body style="font-family: 'Poppins', Arial, sans-serif">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -53,5 +57,10 @@ export const templateWelcome = () => {
     </table>
 </body>
   </html>
+<<<<<<< HEAD
   `;
 };
+=======
+  `
+}
+>>>>>>> e4f2a875954e9567257080978b0ac2d13578d447
