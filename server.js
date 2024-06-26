@@ -1,10 +1,6 @@
 import brevo from "@getbrevo/brevo";
 import { config } from "dotenv";
-<<<<<<< HEAD
 import { templateWelcome } from "./templateWelcome.js";
-=======
-import { templateWelcome } from './templateWelcome.js'
->>>>>>> e4f2a875954e9567257080978b0ac2d13578d447
 
 config();
 
@@ -18,13 +14,8 @@ apiInstance.setApiKey(
 const sendSmtpEmail = new brevo.SendSmtpEmail();
 
 sendSmtpEmail.subject = "Hola";
-<<<<<<< HEAD
 sendSmtpEmail.to = [{ email: "jimmyegc@gmail.com", name: "Jimborroso" }];
 sendSmtpEmail.htmlContent = templateWelcome();
-=======
-sendSmtpEmail.to = [{ email: "jimmyegc@gmail.com", name: "Jim" }];
-sendSmtpEmail.htmlContent = templateWelcome
->>>>>>> e4f2a875954e9567257080978b0ac2d13578d447
 
 sendSmtpEmail.sender = {
   name: "menikmati",
